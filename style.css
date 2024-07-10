@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color:blanchedalmond;
+}
+
+.all{
+   text-align: center;
+   margin: 40px;
+}
+ 
+.h,.img{
+    display:inline;
+} 
+
+.img{
+    margin-left: 14px;
+}
+ 
+.h{
+    font-size: 38px;
+}
+
+#todo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25%;
+}
+
+#new-task {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#add-task {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#task-list {
+    list-style: none;
+    flex-direction: column;
+    margin: 10px 33% 0% 25%;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.task-item input[type="checkbox"] {
+    /* margin-right: 10px; */
+    width: 20px; /* Adjust width as desired */
+    height: 20px; /* Adjust height as desired */
+}
+
+.task-item label {
+    cursor: pointer;
+}
+
+.completed {
+    /* text-decoration: line-through; */
+    color: #2f2d2d;
+}
+
+.edit-task{
+    color: rgb(4, 4, 4);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.delete-task {
+    color: red;
+    cursor: pointer;
+    padding: 10px;
+}
+
